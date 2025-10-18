@@ -4,9 +4,9 @@
   "description": "",
   "main": "text.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
-    "dev": "nodemon index.js"
+    "start": "node text.js",
+    "dev": "nodemon text.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
