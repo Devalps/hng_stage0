@@ -1,7 +1,7 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Stage 0 backend task",
   "main": "text.js",
   "scripts": {
     "start": "node text.js",
@@ -13,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.12.2",
-    "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }
+
 
