@@ -14,6 +14,11 @@ const getCatFact = async () => {
   }
 };
 
+// Root route
+app.get("/", (req, res) => {
+  res.send("Welcome! Use the /me endpoint to see your profile and a cat fact.");
+});
+
 // GET /me endpoint
 app.get("/me", async (req, res) => {
   const fact = await getCatFact();
